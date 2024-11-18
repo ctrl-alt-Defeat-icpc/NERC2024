@@ -1,4 +1,3 @@
-import os
 import subprocess
 
 def run_command(command, cwd=None):
@@ -15,7 +14,7 @@ def pull_changes():
 def commit_changes():
     print("Committing changes...")
     run_command(["git", "add", "."])
-    run_command(["git", "commit", "-m", 'Updated'])
+    run_command(["git", "commit", "-m", 'Updated by update.py'])
 
 def push_changes():
     print("Pushing changes...")

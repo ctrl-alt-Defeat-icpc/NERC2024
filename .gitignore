@@ -29,6 +29,7 @@ Thumbs.db
 
 # IDE-specific files
 .idea/
+.rcph/
 
 # Git-specific files
 *.lock

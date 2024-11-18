@@ -24,17 +24,8 @@ void Main() {
         return;
     }
     for(int i = 0; i < n; i++) {
-        if(k <= maxwork[i + 1]) {
-            if(a[i] >= b[i]) {
-                cout << 1 << ' ';
-                k--;
-            }
-            else cout << 0 << ' ';
-        }
-        else {
-            cout << k - maxwork[i + 1] << ' ';
-            k = min(k, maxwork[i + 1]);
-        }
+        cout << k - maxwork[i + 1] << ' ';
+        k = min(k, maxwork[i + 1]);
     }
     cout << '\n';
 }

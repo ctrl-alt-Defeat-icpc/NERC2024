@@ -2,16 +2,10 @@
 using namespace std;
 
 #define ll long long
-const int N = 1e3 + 5;
-int n, k, a[N], b[N];
+const int N = 1e5 + 5;
 
 void Main() {
-    cin >> n >> k;
-    for(int i = 0; i < n; i++)
-        cin >> a[i];
-    for(int i = 0; i < n; i++)
-        cin >> b[i];
-       
+    
 }
 
 int main() {

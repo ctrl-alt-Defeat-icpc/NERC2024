@@ -33,3 +33,6 @@ Thumbs.db
 
 # Git-specific files
 *.lock
+
+input.txt
+output.txt

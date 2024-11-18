@@ -1,3 +1,14 @@
+<div align="center">
+    
+#### solved problems
+| problem | code |
+|:---:|:---:|
+| C | [link](./rahmat/c.cpp) |
+| J | [link](./rahmat/j.cpp) |
+| L | [link](./ali/L.cpp) |
+| N | [link](./rahmat/n.cpp) |
+</div>
+
 # NERC 2024-2025
 Welcome to our ICPC programming competition repository! This repository is structured to help us collaborate efficiently as a team while keeping our work organized. Below are guidelines on how to use this repository.
 

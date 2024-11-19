@@ -1,6 +1,7 @@
 import subprocess
+import os
 
-def run_command(command, cwd=None):
+def run_command(command, cwd=os.path.dirname(os.path.abspath(__file__))):
     try:
         result = subprocess.run(command, cwd=cwd, check=True, text=True, capture_output=True)
         print(result.stdout)
